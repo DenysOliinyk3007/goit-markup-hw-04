@@ -52,6 +52,7 @@ img {
     gap: 40px;
     justify-content: center;
     align-items: center;
+    color: #404bbf;
 }
 
 .nav-menu {
@@ -194,7 +195,7 @@ img {
     font-weight: 500;
     background-color: #4D5AE5;
     color: #ffffff;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover {
@@ -250,14 +251,15 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.icon-item{
-    width: calc((100% - 3 * 24px) / 4);
     height: 112px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
     background-color:#F4F4FD ;
     margin-bottom: 8px;
+}
+.icon-item{
+    width: calc((100% - 3 * 24px) / 4);
+    
 }
 
 .feature-item{
@@ -282,10 +284,11 @@ img {
 
 .section-three{
     padding: 120px 0 120px 0;
+    background-color: #F4F4FD;
 }
 
 .section-three-container{
-    background-color: #F4F4FD;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -317,6 +320,7 @@ img {
 
 .team-list-inner{
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-content{
@@ -331,6 +335,13 @@ img {
 .team-text{
     text-align: center;
     margin-bottom: 8px;
+}
+
+.social-links-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 .social-links-list{
     display: flex;
