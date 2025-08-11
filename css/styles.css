@@ -431,7 +431,7 @@ img {
 .utility-list-inner:hover .overlay{
     transform: translateY(0)
 }
-.overlay .img-container-text{
+.img-container-text{
     position: absolute;
     top: 0;
     font-size: 16px;
