@@ -110,8 +110,15 @@ img {
     margin-right: 76px;
 }
 
-.header-logo-span{
+.navigation-list .item-studio{
     color: #404bbf;
+}
+.navigation-list .nav-menu-studio{
+    color: #404bbf;
+}
+
+.header-logo-span{
+    color: #2e2f42;
 }
 .header-logo:hover, .header-logo:focus {
     font-family: "Raleway", sans-serif;
