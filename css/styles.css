@@ -47,6 +47,10 @@ img {
     gap: 40px;
 }
 
+.studio-class{
+    color: #404bbf;
+}
+
 .navigation-list{
     display: flex;
     gap: 40px;
@@ -159,6 +163,7 @@ img {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 .large-title {
     font-family: inherit;
