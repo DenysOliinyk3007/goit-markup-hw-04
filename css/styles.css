@@ -117,8 +117,8 @@ img {
     color: #404bbf;
 }
 
-.header-logo-span{
-    color: #2e2f42;
+.page-footer .logo-motto .text{
+    color: #404bbf;
 }
 .header-logo:hover, .header-logo:focus {
     font-family: "Raleway", sans-serif;
@@ -138,6 +138,11 @@ img {
     letter-spacing: 0.02em;
     font-weight: 500;
 }
+
+.header .header-logo .header-logo-span{
+    color: #404bbf;
+}
+
 
 .navigation-list .nav-menu:hover, .navigation-list .nav-menu:focus{
     color: #404bbf;
